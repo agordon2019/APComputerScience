@@ -2,6 +2,7 @@
 public class StaticMethodPractice {
 
 	public static void main(String[] args) {
+		//I pushed this to Git
 		wholeLine(); //Top of the top box
 		side(); //Side of top box
 		side();
