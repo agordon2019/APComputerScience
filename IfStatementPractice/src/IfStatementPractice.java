@@ -55,10 +55,14 @@ public class IfStatementPractice {
 	
 	//Project4.2
 	
-	public static int rightTrianle(int side1, int side2, int side3) {
-		int side1;
-		int side2;
-		int side3;
+		public static boolean rightTriangle(int leg1, int leg2, int hypotenuse) {
+			if (hypotenuse == Math.sqrt((leg1* leg1) + (leg2 *leg2))) {
+				return true;
+			} else {
+				return false;
+			}
+			
+		}
 		
-	}
+		//Project 4.3
 }
