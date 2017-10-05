@@ -1,5 +1,4 @@
 /*
- * 
  * Aidan Gordon
  * 10/2/17
  * This program finds the largest of two integers without using the Math class
