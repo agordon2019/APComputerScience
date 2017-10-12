@@ -31,13 +31,16 @@ public class WhileLoopPractice {
 		}
 	}
 	
+	//Prints out a specified number of stars in a row
 	public static void stars(int numberStars) {
+		//Declares counter variable
 		int counter = 1;
 		
+		//Prints specified number of stars 
 		while (counter <= numberStars) {
 			System.out.print("*");
 			counter++;
 		}
-		System.out.println();
+		System.out.println(); //Prints a blank line for formatting
 	}
 }
