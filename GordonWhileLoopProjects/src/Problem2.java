@@ -37,11 +37,11 @@ public class Problem2 {
 		in.close();
 		
 		//Calculates predicted population
-		while (numberHoursGrows >= numberHoursAchieved) {
-			initialPopulation *= growthRate;
-			numberHoursGrows -= numberHoursAchieved;
+		while (numberHoursGrows >= numberHoursAchieved) { 
+			initialPopulation *= growthRate; //Multiplies previous initial population by the growth rate to get new population 
+			numberHoursGrows -= numberHoursAchieved; //subtracts number of hours achieved from the number of total hours it grows
 		}
-		System.out.println(initialPopulation);
+		System.out.println(initialPopulation); //Prints the predicted population
 		
 	}
 
