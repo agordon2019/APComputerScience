@@ -13,11 +13,31 @@ public class Problem4 {
 
 	public static void main(String[] args) {
 		//Declares variables for guesses and numbers
-		int counter = 1;
+		int counter = 0;
 		int randomNumber;
 		int userGuess = 0;
 		
-		//
+		//Gets random number using "getRandInt" method
+		randomNumber = getRandInt(1,100);
+		
+		//Instantiates the Scanner
+		Scanner in = new Scanner(System.in);
+		
+		while (userGuess != randomNumber) {
+			System.out.print("Guess an integer 1-100: ");
+			userGuess = in.nextInt();
+			counter++;
+			if (userGuess > randomNumber) {
+				System.out.println("Guess is too high.");
+			} else if (userGuess < randomNumber) {
+				System.out.println("Guess is too low.");
+			}
+		}
+		//Closes Scanner
+		in.close();
+		
+		//Displays the number, number of guesses, and a congratulatory message
+		System.out.println("Congratulations! You got it! The number was " + randomNumber + "." + "\nIt took you " + counter + " guesses to get it right." );
 	}
 	//Generates and returns a random number between min and max
 			public static int getRandInt(int max,int min)

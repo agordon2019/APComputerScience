@@ -33,7 +33,7 @@ public class Problem3 {
 			answer *= 2; //Multiplies previous answer by 2
 			counter++; //Increments counter
 		}
-		System.out.println(answer);
+		System.out.println(answer); //Prints the calculation
 		}
 	}
 
