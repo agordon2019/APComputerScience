@@ -19,19 +19,19 @@ public class Problem2 {
 		
 		//Prompts user for initial population input
 		System.out.print("Enter the intial number of organisms: ");
-		initialPopulation = in.nextInt();
+		initialPopulation = in.nextInt(); //Stores input in initalPopulation variable
 		
 		//Prompts user for growth rate input
 		System.out.print("Enter growth rate of the population: ");
-		growthRate = in.nextInt();
+		growthRate = in.nextInt(); //Stores input in growthRate variable
 		
 		//Prompts user to input number of hours population takes to achieve growth rate
 		System.out.print("Enter number of hours it takes to achieve the growth rate: ");
-		numberHoursAchieved = in.nextInt();
+		numberHoursAchieved = in.nextInt(); //Stores input in numberHoursAchieved variable
 		
 		//Prompts user to input number of hours the population grows
 		System.out.print("Enter number of hours the population grows: ");
-		numberHoursGrows = in.nextInt();
+		numberHoursGrows = in.nextInt(); //Stores input in numberHoursGrows variable
 		
 		//Close Scanner
 		in.close();

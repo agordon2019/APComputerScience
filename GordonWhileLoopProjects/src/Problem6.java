@@ -32,6 +32,8 @@ public class Problem6 {
 				System.out.print(number + "\t");
 			}
 		}
+		//Closes Scanner
+		in.close();
 	}
 
 }

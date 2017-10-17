@@ -24,13 +24,13 @@ public class Problem4 {
 		Scanner in = new Scanner(System.in);
 		
 		while (userGuess != randomNumber) {
-			System.out.print("Guess an integer 1-100: ");
-			userGuess = in.nextInt();
-			counter++;
+			System.out.print("Guess an integer 1-100: "); //Prompts user for input
+			userGuess = in.nextInt(); //Stores user input in userGuess variable
+			counter++; //Increments counter
 			if (userGuess > randomNumber) {
-				System.out.println("Guess is too high.");
+				System.out.println("Guess is too high."); //Displays feedback based on guess
 			} else if (userGuess < randomNumber) {
-				System.out.println("Guess is too low.");
+				System.out.println("Guess is too low."); //Displays feedback based on guess
 			}
 		}
 		//Closes Scanner
