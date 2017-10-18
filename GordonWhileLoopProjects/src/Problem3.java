@@ -1,4 +1,5 @@
 /*
++-
  * Powers of 2 Problem
  * Aidan Gordon
  * 10/15/17
@@ -25,10 +26,11 @@ public class Problem3 {
 		while (counter <= exponent) { 
 				answer *= 2; //Multiplies previous answer by 2
 				counter++; //increments counter
+				System.out.println(answer);
 			}
-			}
+		}
 	//Closes Scanner
 	in.close();	
 	}
-	}
+}
 
