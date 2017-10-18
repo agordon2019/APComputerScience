@@ -1,5 +1,4 @@
 /*
- * 
  * Problem 1 While Loop Projects
  * Aidan Gordon
  * 10/12/17
@@ -14,7 +13,7 @@ public class Problem1 {
 		
 		//Determines how many consecutive integers you add
 		//before the sum is greater than 1 million
-		while (sum < 1000000) {
+		while (sum < 1000000) { //While the sum is less than 1 million
 			counter++; //Increments counter 
 			sum += counter; //Accumulates the sum of the first "n" integers until the sum is over 1 million
 		}
