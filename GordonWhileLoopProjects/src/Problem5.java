@@ -26,13 +26,15 @@ public class Problem5 {
 		if (enteredSum < 2 || enteredSum > 12) { //Determines if sum can be achieved with two dice
 			System.err.println("Please enter a sum between 2 and 12."); //Displays error message if sum can't be achieved
 		} else {
-		while (sum != enteredSum) {
+		while (sum != enteredSum) { //While the sum that is calculated does not equal the sum the user entered
 			diceRoll1 = getRandInt(0,7); //Gets random integer for one dice roll
 			diceRoll2 = getRandInt(0,7); //gets random integer for other dice roll
 			sum = diceRoll1 + diceRoll2; //Adds up the dice rolls
-			System.out.println(diceRoll1 + " and " + diceRoll2 + " = " + sum);
+			System.out.println(diceRoll1 + " and " + diceRoll2 + " = " + sum); //Prints the first dice roll and the second dice roll then their sum
 		}
 		}
+		//Closes Scanner
+		in.close();
 	}
 	
 	//Generates and returns a random number between min and max

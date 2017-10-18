@@ -21,15 +21,15 @@ public class Problem6 {
 		System.out.print("Starting number: ");
 		number = in.nextInt();
 		
-		System.out.print(number + "\t");
-		while (number != 1) {
-			if (number % 2 == 1) {
-				number = number * 3 + 1;
-				System.out.print(number + "\t");
+		System.out.print(number + "\t"); //Starts the pattern by printing the input then adding a tab for formatting
+		while (number != 1) { //while the number does not equal 1 (because once it does equal one the program should end)
+			if (number % 2 == 1) { //if number is odd
+				number = number * 3 + 1; //multiplies the number by 3 then adds one to it and stores it back in the number variable
+				System.out.print(number + "\t"); //Prints out the number then adds a tab for formatting
 			}
-			if (number % 2 == 0) {
-				number /= 2;
-				System.out.print(number + "\t");
+			if (number % 2 == 0) { //if number is even
+				number /= 2; //divides number by 2 and stores it back in number variable
+				System.out.print(number + "\t"); //Prints out the number then adds a tab for formatting
 			}
 		}
 		//Closes Scanner

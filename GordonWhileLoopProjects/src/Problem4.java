@@ -23,13 +23,13 @@ public class Problem4 {
 		//Instantiates the Scanner
 		Scanner in = new Scanner(System.in);
 		
-		while (userGuess != randomNumber) {
+		while (userGuess != randomNumber) { //While the user's guess does not equal the random number
 			System.out.print("Guess an integer 1-100: "); //Prompts user for input
 			userGuess = in.nextInt(); //Stores user input in userGuess variable
 			counter++; //Increments counter
-			if (userGuess > randomNumber) {
+			if (userGuess > randomNumber) { //if the entered input is greater than the random number
 				System.out.println("Guess is too high."); //Displays feedback based on guess
-			} else if (userGuess < randomNumber) {
+			} else if (userGuess < randomNumber) { //if the entered input is less than the random number
 				System.out.println("Guess is too low."); //Displays feedback based on guess
 			}
 		}
