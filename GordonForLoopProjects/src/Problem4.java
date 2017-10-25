@@ -22,7 +22,7 @@ public class Problem4 {
 		System.out.println(); //Prints blank line for formatting
 		
 		//Goes to triangleLeft method to print the triangle of the user specified size
-		System.out.println(triangleLeft(size));
+		triangleLeft(size);
 		
 		//Closes Scanner
 		in.close();
