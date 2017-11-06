@@ -25,25 +25,18 @@ public class Problem3 {
 			answer = (int) Math.pow(2, exponent); //Finds two to the power that the user specified
 			System.out.println("2^" + exponent + " = " + answer); //Prints out calculated answer
 			System.out.print("Enter exponent: "); //Prompts user for input
-<<<<<<< HEAD
 			exponent = in.nextInt(); //Stores input in exponent variable
 		while (counter <= exponent) { 
 				answer *= 2; //Multiplies previous answer by 2
 				counter++; //increments counter
 				System.out.println(answer);
-=======
 			exponent = reader.nextInt(); //Stores input in exponent variable
->>>>>>> branch 'master' of https://github.com/agordon2019/APComputerScience.git
-			}
-<<<<<<< HEAD
 		}
 	//Closes Scanner
 	in.close();	
 	}
-=======
 		//Closes Scanner
 		reader.close();
 		}
->>>>>>> branch 'master' of https://github.com/agordon2019/APComputerScience.git
 }
 
