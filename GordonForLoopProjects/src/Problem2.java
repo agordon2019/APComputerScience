@@ -23,6 +23,10 @@ public class Problem2 {
 		System.out.print("How many grades would you like to enter? ");
 		numGrades = in.nextInt(); //Stores the number of grades the user entered in "numGrades" variable
 		
+		//closes Scanner
+		in.close();
+		
+		//Creates for loop to make an iteration for each grade that the user wants to enter
 		for (int counter = 1; counter <= numGrades; counter++) {
 			System.out.print("Enter grade #" + counter + ": "); //Prompts user for input
 			grade = in.nextDouble(); //Stores user entered grade in "grade" variable
@@ -30,7 +34,7 @@ public class Problem2 {
 		}
 		
 		average = sum / numGrades; //Calculates the class average
-		System.out.println("Your class average is: " + average);
+		System.out.println("Your class average is: " + average); //Displays average
 	}
 
 }

@@ -21,6 +21,9 @@ public class Problem1 {
 		System.out.print("Enter a number: ");
 		number = in.nextInt(); //Stores input in "number" variable
 		
+		//closes Scanner
+		in.close();
+		
 		//Goes to "sumSquares" method to find the sum of squares from one to the entered integer
 		sum = sumSquares(number);
 		
@@ -32,9 +35,9 @@ public class Problem1 {
 		//Declares variable for calculation
 		int sum = 0;
 		
-		for (int counter = 1; counter <= num; counter++) {
-		 sum += Math.pow(counter, 2);	
+		for (int counter = 1; counter <= num; counter++) { //accumulates sum of integers up until the specified parameter
+		 sum += Math.pow(counter, 2);	//Accumulates sum with next square
 		}
-		return sum;
+		return sum; //returns the sum
 	}
 }

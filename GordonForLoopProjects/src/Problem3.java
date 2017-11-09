@@ -31,13 +31,15 @@ public class Problem3 {
 		in.close();
 	}
 	
-	public static void triangleLeft(int size) {
+	public static void triangleLeft(int size) { //Creates new method to create triangle
+		//Declares variable for new counter
 		int counter;
-		for (counter = 1; counter <= size; counter++) {
-			for (int count = 1; count <= counter; count++) {
-				System.out.print(counter);
+		
+		for (counter = 1; counter <= size; counter++) { //Creates iteration for each row of the triangle
+			for (int count = 1; count <= counter; count++) { //Prints the counter based on the row number
+				System.out.print(counter); //prints the counter
 			}
-			System.out.println();
+			System.out.println(); //Skips to next line for next iteration
 		}
 	}
 
