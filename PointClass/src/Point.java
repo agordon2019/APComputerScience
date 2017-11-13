@@ -1,4 +1,5 @@
 /*
+ * 
  * Point Class Method Practice
  * 11/11/17
  * Aidan Gordon
