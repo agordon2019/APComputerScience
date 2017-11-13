@@ -1,5 +1,4 @@
 /*
-<<<<<<< HEAD
  * Triangle Right
  * Aidan Gordon
  * 10/24/17
@@ -84,6 +83,5 @@ public class Problem4 {
 				for (int counter1 = 1; counter1 <= size; counter1++) {
 			}
 		}
->>>>>>> branch 'master' of https://github.com/agordon2019/APComputerScience.git
 	}
 }
