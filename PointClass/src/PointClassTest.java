@@ -1,5 +1,4 @@
 /*
- * 
  * Point Class Test 
  * Aidan Gordon
  * 11/11/17
