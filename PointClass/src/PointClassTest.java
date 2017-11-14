@@ -39,5 +39,11 @@ public class PointClassTest {
 		
 		System.out.println(point1.getX() + ", " + point1.getY());
 		
+		//Tests toString method
+		System.out.println(point1.toString());
+		
+		//Tests equals Method
+		point2.setLocation(4.0, 4.5); //Sets point 2 equal to point one in order to get true
+		System.out.println(point1.equals(point2));
 	}
 }

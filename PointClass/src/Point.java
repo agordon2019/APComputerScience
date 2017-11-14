@@ -58,4 +58,19 @@ public class Point {
 		x += dx;
 		y += dy;
 	}
+	
+	//Method that changes point into a String
+	public String toString() {
+		return x + ", " + y;
+	}
+	
+	//Method that returns whether or not the two points are equal
+	public boolean equals(Point p) {
+		//DONT NEED TO USE GET X OR Y BECAUSE WE ARE INSIDE POINT CLASS	
+		if (p.x == x && p.y == y) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
