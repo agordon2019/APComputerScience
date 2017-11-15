@@ -43,7 +43,7 @@ public class Point {
 	}
 	
 	//Method that Gets Distance
-	public double getDistance(Point p) {
+	public double distance(Point p) {
 		return Math.sqrt((Math.pow(p.getX() - x, 2.0)) + Math.pow((p.getY() - y), 2.0));
 	}
 	

@@ -58,11 +58,16 @@ public class Circle {
 	
 	//Method that determines whether or not a point lies within the circle
 	public boolean inCircle(Point p) {
-		if (Math.abs(p.getX()) <= (Math.abs(center.getX()) + radius)   
-			&& Math.abs(p.getY()) <= Math.abs(center.getY()) + radius) {
-			return true;
+		//Gets the distance between the center point and the given point and checks if it is
+		//less than the radius of the circle
+		if (center.distance(p) <= radius) {
+			return true; //returns true because point is inside circle
 		} else {
-			return false;
+			return false;//returns false because point is outside circle
 		}
+	}
+	
+	public String toString() {
+		return "Raidus: " + radius + " Center: " + center.toString();
 	}
 }

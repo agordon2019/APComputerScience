@@ -27,7 +27,7 @@ public class PointClassTest {
 		System.out.println(point1.getX() + ", " + point1.getY());
 		
 		//Tests Distance 
-		System.out.println(point1.getDistance(point2));
+		System.out.println(point1.distance(point2));
 		
 		//Tests Set Location Method
 		point1.setLocation(2.0,  3.0);
