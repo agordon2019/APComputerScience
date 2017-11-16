@@ -24,6 +24,9 @@ public class RegularPolyTest {
 		//Tests mutator for side length
 		triangle2.setSideLength(3.0);
 		System.out.println(triangle2.getSideLength());
+		
+		//Tests equals method
+		
 	}
 
 }
