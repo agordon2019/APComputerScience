@@ -43,7 +43,7 @@ public class Dealership {
 	
 	//toString method that returns a string representation 
 	public String toString() {
-		String str = name + "\n";
+		String str = name + ":\n";
 		for (int i = 0; i < cars.length; i++) {
 			str += cars[i];
 		}

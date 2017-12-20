@@ -69,7 +69,7 @@ public class Car {
 	
 	//toString method that returns a string representation of the car
 	public String toString() {
-		return year + make + model + color;
+		return year + " " +  make + " " + model + " " + color + "\n";
 	}
 	
 	//Equals method to determine if two cars are the same
